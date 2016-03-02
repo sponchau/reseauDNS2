@@ -6,3 +6,8 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "wt12.ephec-ti.be" {
+	type master;
+	file "/etc/bind/db.ephec-ti";
+};
+
