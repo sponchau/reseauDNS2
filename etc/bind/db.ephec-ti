@@ -1,6 +1,6 @@
 $TTL 86400;
 $ORIGIN wt12.ephec-ti.be
-@	IN	SOA 	server1.wt12.ephec-ti.be. root.wt12.ephec-ti.be. (
+@	IN	SOA 	ns.wt12.ephec-ti.be. HE201236.students.ephec.be. (
 	2007060100;
 	3600;
 	600;
@@ -8,7 +8,7 @@ $ORIGIN wt12.ephec-ti.be
 	3600);
 
 
-@	IN	NS	server1.wt12.ephec-ti.be.
-server1		A	51.255.40.223
-www		CNAME	server1
+@	IN	NS	ns.wt12.ephec-ti.be.
+ns		A	51.255.40.223
+www		CNAME	ns
 
